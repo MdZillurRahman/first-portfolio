@@ -19,6 +19,7 @@ h1{
     color: white;
     text-decoration: none;
     border: none;
+    font-weight: 800;
 }
 .half-width{
     width: 50%;
