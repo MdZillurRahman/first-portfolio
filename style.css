@@ -6,6 +6,10 @@ body{
 h1{
     font-size: 50px;
 }
+p{
+    font-size: 18px;
+    padding: 10px 0px;
+ }
 .color{
     color: orange;
 }
@@ -87,7 +91,7 @@ h1{
 div h2{
     font-size: 40px;
 }
-.one-third{
+.image-position{
     width: 40%;
     padding-left: 150px;
 }
@@ -95,7 +99,7 @@ div h2{
     width: 400px;
     height: 400px;
 }
-.two-third{
+.text-position{
     width: 80%;
     padding-left: 2%;
     text-align: justify;
