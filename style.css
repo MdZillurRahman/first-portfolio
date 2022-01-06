@@ -1,0 +1,107 @@
+body{
+    font-family: 'DM Serif Display', serif;
+    margin: 0px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+h1{
+    font-size: 50px;
+}
+.color{
+    color: orange;
+}
+
+.button-color{
+    border-radius: 5px;
+    padding: 10px 40px;
+    background-color: #EA556B;
+    color: white;
+    text-decoration: none;
+    border: none;
+
+}
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+    text-align: justify;
+}
+.half-width img{
+    width: 50%;
+    padding-left: 100px;
+    padding-bottom: 100px;
+}
+.side-border{
+    border-left: 5px solid;
+    border-image: linear-gradient(#F33551, pink);
+    border-image-slice: 1;
+    padding-left: 10px;
+}
+.flexible{
+    display: flex;
+}
+.center{
+    text-align: center;
+    font-size: 40px;
+}
+.size{
+    width: 35%;
+    height: 35%;
+    image-resolution: 5000dpi;
+}
+.mission-area{
+    display: flex;   
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+.position{
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 27%; 
+    padding-left: 10px;
+}
+#background-color-1{
+    background-color: #D2FDFF;
+    
+}
+#background-color-2{
+    background-color: #FECEFF;
+}
+#background-color-3{
+    background-color: #FFDCCA;
+}
+.background{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    background-position-x: 25px;
+    background-position-y: 20px;
+    margin-bottom: 100px ;
+}
+div h2{
+    padding-top: 0px;
+    font-size: 40px;
+}
+.one-third{
+    width: 33%;
+    padding-left: 100px;
+}
+.size1{
+    width: 300px;
+    height: 300px;
+}
+.two-third{
+    width: 77%;
+    padding-left: 2%;
+    text-align: justify;
+    
+}
+.background1{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    background-position-x: 970px;
+    background-position-y: 160px;
+    margin-bottom: 100px;
+}
