@@ -2,7 +2,6 @@ body{
     font-family: 'DM Serif Display', serif;
     margin: 0px;
     margin-top: 50px;
-    margin-left: 50px;
 }
 h1{
     font-size: 50px;
@@ -24,6 +23,7 @@ h1{
     width: 50%;
     padding-left: 2%;
     text-align: justify;
+    margin-left: 50px;
 }
 .half-width img{
     width: 50%;
@@ -34,7 +34,8 @@ h1{
     border-left: 5px solid;
     border-image: linear-gradient(#F33551, pink);
     border-image-slice: 1;
-    padding-left: 10px;
+    padding-left: 30px;
+    font-size: 70px;
 }
 .flexible{
     display: flex;
@@ -53,6 +54,8 @@ h1{
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 20px;
 }
 .position{
     border-radius: 20px;
@@ -75,7 +78,7 @@ h1{
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-size: 200px 200px;
-    background-position-x: 25px;
+    background-position-x: 70px;
     background-position-y: 20px;
     margin-bottom: 100px ;
 }
@@ -84,15 +87,15 @@ div h2{
     font-size: 40px;
 }
 .one-third{
-    width: 33%;
-    padding-left: 100px;
+    width: 40%;
+    padding-left: 150px;
 }
 .size1{
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
 }
 .two-third{
-    width: 77%;
+    width: 80%;
     padding-left: 2%;
     text-align: justify;
     
@@ -101,7 +104,39 @@ div h2{
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-size: 200px 200px;
-    background-position-x: 970px;
-    background-position-y: 160px;
+    background-position-x: 1030px;
+    background-position-y: 200px;
     margin-bottom: 100px;
+}
+.background2{
+    background-image: url(images/shapes/shape-6.png), url(images/shapes/shape-7.png);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+    background-position-x: 250px, 550px;
+    background-position-y: 0px, 350px;
+    margin-bottom: 100px;
+}
+.size2{
+    width: 550px;
+    height: 330px;
+    }
+article{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+.size3{
+    margin-left: 150px;
+    margin-top: 30px;
+    width: 300px;
+    height: 400px;
+    image-resolution: 1000dpi;
+}
+footer{
+    text-align: center;
+    font-family:'Dancing Script', cursive;
+    font-weight: 800;
+    color: white;
+    background-color: black;
+    padding-bottom: 20px;
 }
